@@ -42,3 +42,51 @@ Python extracts required data
         ↓
 Weather information is displayed
 
+**# PROJECT 2**
+# 🎬 Movie Discovery & Information App
+
+A beginner-friendly Python project that uses the TMDB API to search for movies and get information about them.
+
+I built this project as part of my AI Bootcamp while learning how APIs work, how to send requests, and how to work with JSON responses.
+
+## ✨ What can it do?
+
+- 🔎 Search for a movie by name
+- 🎬 Get movie details from TMDB
+- ⭐ View the movie's rating
+- 📅 View the release date
+- 📝 View the movie overview
+- 📦 Work with data returned in JSON format
+
+## 🛠️ Technologies Used
+
+- Python
+- Requests
+- TMDB API
+- JSON
+- Google Colab
+
+## 🔄 How it works
+
+The basic flow is:
+
+**Enter movie name → Send API request → TMDB returns JSON → Extract movie details → Display the information**
+
+For example, if I enter `Baahubali`, the program sends the movie name to the TMDB API and receives information about matching movies.
+
+## 🧠 What I learned
+
+While building this project, I learned:
+
+- How to work with a movie API
+- How API keys are used for authentication
+- How to send GET requests using Python
+- How to pass parameters with an API request
+- How to read and navigate JSON data
+- How lists and dictionaries are structured inside API responses
+- How to extract specific information from nested JSON
+
+One thing I learned the hard way was that API responses don't always have the data exactly where you expect it. For example:
+
+```python
+data["results"][0]["overview"]
