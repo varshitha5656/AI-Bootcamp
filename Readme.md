@@ -29,7 +29,6 @@ The application takes a city name from the user, sends a request to the OpenWeat
 
 ## 🔄 How It Works
 
-```text
 User enters city name
         ↓
 Python sends GET request
@@ -88,5 +87,15 @@ While building this project, I learned:
 
 One thing I learned the hard way was that API responses don't always have the data exactly where you expect it. For example:
 
-```python
+python:
 data["results"][0]["overview"]
+
+Here, results contains the movies, [0] selects the first movie, and overview gets the description of that movie.
+
+🔑 API Key
+
+This project requires a TMDB API key.
+
+For security, do not upload your actual API key to GitHub.
+
+Replace it with your own key when running the project
