@@ -1,3 +1,4 @@
+# PROJECT 1
 # 🌦️ Weather Information Checker
 
 A beginner-friendly Python project that uses the OpenWeatherMap API to fetch real-time weather information for a city.
@@ -40,3 +41,4 @@ JSON response
 Python extracts required data
         ↓
 Weather information is displayed
+
