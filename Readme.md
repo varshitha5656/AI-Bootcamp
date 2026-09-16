@@ -99,3 +99,31 @@ This project requires a TMDB API key.
 For security, do not upload your actual API key to GitHub.
 
 Replace it with your own key when running the project
+
+**Project 3**
+Currency Converter using Frankfurter API
+
+A beginner-friendly Python project that converts an amount from one currency to another using real exchange-rate data from the Frankfurter API.
+
+**Features**
+Convert between currencies
+Fetch current exchange rates through an API
+Accept amount and currency codes from the user
+Handle invalid currency requests
+Display the converted amount
+
+**Technologies**
+Python
+Requests
+Frankfurter API
+JSON
+Google Colab
+
+**What I learned**
+Making API requests
+Working with dynamic API URLs
+Reading JSON responses
+Extracting values from dictionaries
+Using user input with APIs
+Performing calculations using API data
+Handling API errors
